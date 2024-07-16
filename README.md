@@ -95,7 +95,7 @@ This project demonstrates the deployment of a scalable LLM inference service usi
     k6 run load_test.js
     ```
 
-## CI/CD Pipeline 
+## CI/CD Pipeline workflow
 
 Add a `.github/workflows/main.yml` for CI/CD pipeline.
 
