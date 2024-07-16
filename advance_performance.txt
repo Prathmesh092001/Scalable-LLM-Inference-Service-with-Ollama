@@ -1,8 +1,8 @@
-Fortio 1.17.0 running at 0 queries per second, 4->4 procs, for 30s: http://192.168.99.100:32000/generate
-Starting at max qps with 4 thread(s) [gomax 4] for exactly 30s
-16:35:14 W http_client.go:486> for "http://192.168.99.100:32000/generate"
-Ended after 30.0001757s : 1221 calls. qps=40.70
-Aggregated Function Time : count 1221 avg 0.09829433 +/- 0.08627 min 0.001288778 max 0.499537449 sum 119.994078
+Fortio 1.17.0 running at 0 queries per second, 4->4 procs, for 1m0s: http://192.168.99.100:32000/generate
+Starting at max qps with 4 thread(s) [gomax 4] for exactly 1m0s
+16:40:14 W http_client.go:486> for "http://192.168.99.100:32000/generate"
+Ended after 1m0.0011753s : 2442 calls. qps=40.7
+Aggregated Function Time : count 2442 avg 0.09829433 +/- 0.08627 min 0.001288778 max 0.499537449 sum 239.994078
 # range, mid point, percentile, count
 >= 0.00128878 <= 0.002 , 0.00164439 , 0.57, 7
 > 0.002 <= 0.003 , 0.0025 , 1.89, 15
@@ -49,8 +49,8 @@ Aggregated Function Time : count 1221 avg 0.09829433 +/- 0.08627 min 0.001288778
 # target 99.9% 0.429311
 # target 99.99% 0.494019
 # target 99.999% 0.49848
-Code 200 : 997 (81.6 %)
-Code 404 : 224 (18.3 %)
-Response Header Sizes : count 1221 avg 295.407042 +/- 120.1 min 0 max 447 sum 360501
-Response Body/Total Sizes : count 1221 avg 645.48648 +/- 154.3 min 0 max 798 sum 787050
-All done 1221 calls (plus 0 warmup) 98.294 ms avg, 40.7 qps
+Code 200 : 1997 (81.6 %)
+Code 404 : 445 (18.3 %)
+Response Header Sizes : count 2442 avg 295.407042 +/- 120.1 min 0 max 447 sum 721002
+Response Body/Total Sizes : count 2442 avg 645.48648 +/- 154.3 min 0 max 798 sum 1574100
+All done 2442 calls (plus 0 warmup) 98.294 ms avg, 40.7 qps
