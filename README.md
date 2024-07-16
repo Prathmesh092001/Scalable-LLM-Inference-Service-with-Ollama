@@ -1,6 +1,6 @@
 # Scalable-LLM-Inference-Service-with-Ollama
 
-## Overview
+## Overview of Project 
 
 This project demonstrates the deployment of a scalable LLM inference service using Ollama, along with load testing and autoscaling.
 
@@ -97,7 +97,7 @@ This project demonstrates the deployment of a scalable LLM inference service usi
 
 ## CI/CD Pipeline workflow
 
-Add a `.github/workflows/main.yml` for CI/CD pipeline.
+Add a `.github/workflows/main.yaml` for CI/CD pipeline .
 
 ### Comparing Performance Across Different LLMs (Bonus)
 
